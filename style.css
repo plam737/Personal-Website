@@ -59,3 +59,13 @@ p {
 .nav-name {
     font-weight: bold;
 }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.project-card img {
+    width: 100%;
+}
